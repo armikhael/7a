@@ -1,0 +1,120 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+}
+body {
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+}
+.resposive-img {
+    /*height: auto;*/
+    max-width: 100%;
+}
+hr {
+    max-width: 50%;
+}
+#mainNav {
+    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+}
+#mainNav.navbar-shrink {
+    border-color: rgba(34,34,34,.05);
+    background-color: #ff4c00;
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: none;
+    color: #fff!important;
+    margin-right: 20px;
+}
+.fw4{
+    font-weight: 400!important;
+}
+.fw2{
+    font-weight: 200!important;
+}
+.fw3{
+    font-weight: 300!important;
+}
+#mainNav .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff!important;
+}
+header.masthead .header-content .header-content-inner h1 {
+    color: #3d3c3c;
+        text-transform: none;
+}
+.easy{
+    color: #ff4c00;
+    font-weight: 900;
+    -webkit-text-stroke: 2px #fff;
+}
+.box-header-4{
+    background: rgba(255, 255, 255, 0.82);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+.box-header-3{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.box-header h3{
+    color: #5c5c5c;
+        text-transform: uppercase;
+}
+.text-black{
+    color: #3d3c3c;
+}
+.my{
+    text-transform: uppercase;
+}
+.my-n{
+    text-transform: none!important;
+}
+.center{
+    text-align: center;
+}
+.box-service{
+    padding: 20px;
+    border: 1px solid #ff4c00;
+    color: #ff4c00;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.bg-footer{
+    background: #ff4c00;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+@media (min-width: 768px){
+    header.masthead .header-content .header-content-inner h1 {
+        font-size: 70px;
+        text-align: left;
+    }
+    .easy{
+        font-size: 140px;
+        position: absolute;
+        margin-top: -35px;
+        margin-left: 10px;
+    }
+    .fs70{
+        font-size: 70px;
+    }
+    .box-redes-footer i {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .hr-footer{
+           max-width: 25%;
+    }
+}
+@media (max-width: 550px){
+    #mainNav{
+        background-color: #ff4c00!important;
+    }
+}
