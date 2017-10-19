@@ -11,6 +11,10 @@ body {
 hr {
     max-width: 50%;
 }
+a:link   
+{   
+ text-decoration:none;   
+} 
 #mainNav {
     font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
 }
@@ -33,6 +37,9 @@ hr {
 }
 .fw3{
     font-weight: 300!important;
+}
+.fw9{
+    font-weight: 900!important;
 }
 #mainNav .navbar-brand {
     font-weight: 700;
@@ -124,9 +131,38 @@ header.masthead .header-content .header-content-inner h1 {
 }
  .pl25{
         padding-left: 25px;
-    }
-
-
+}
+.box-price{
+    background: #ff4c00;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+.box-price  h1{
+    font-size: 100px;
+}
+.box-price  span{
+    font-size: 30px;
+}
+.price-collapse{
+    background: #ff4c00;
+    color: #fff;
+    padding: 18px;
+    border-radius: 5px;
+}
+.price-collapse a{
+    font-size: 20px;
+    font-weight: 700;
+}
+.price-collapse-p{
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.pull-right{
+        float: right;
+}
 
 
 
@@ -170,5 +206,8 @@ header.masthead .header-content .header-content-inner h1 {
     }
     .none{
         display: none;
+    }
+    .box-price  h1{
+        font-size: 50px;
     }
 }
