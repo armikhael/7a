@@ -43,6 +43,9 @@ header.masthead .header-content .header-content-inner h1 {
     color: #3d3c3c;
         text-transform: none;
 }
+.naranja{
+    color: #ff4c00;
+}
 .easy{
     color: #ff4c00;
     font-weight: 900;
@@ -90,6 +93,43 @@ header.masthead .header-content .header-content-inner h1 {
     text-align: center;
     color: #fff;
 }
+.text1-how{
+    font-size: 40px;
+    font-weight: 300;
+    padding-left: 15px;
+     margin-bottom: 0px;
+}
+.text2-how{
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 15px;
+    color: #ff4c00;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+.text3-how{
+    font-size: 25px;
+    font-weight: 300;
+}
+.text4-how{
+    font-size: 40px;
+    font-weight: 400;
+    color: #ff4c00;
+    text-transform: uppercase;
+}
+.numero-how{
+    position: absolute;
+    left: 45px;
+    top: 12px;
+}
+ .pl25{
+        padding-left: 25px;
+    }
+
+
+
+
+
 
 @media (min-width: 768px){
     header.masthead .header-content .header-content-inner h1 {
@@ -116,9 +156,19 @@ header.masthead .header-content .header-content-inner h1 {
         float: right;
     margin-top: -150px;
     }
+   
 }
 @media (max-width: 550px){
     #mainNav{
         background-color: #ff4c00!important;
+    }
+    .text1-how,.text2-how,.text4-how{
+        font-size: 30px;
+    }
+    .numero-how{
+            width: 60px;        
+    }
+    .none{
+        display: none;
     }
 }
