@@ -112,6 +112,10 @@ header.masthead .header-content .header-content-inner h1 {
     .hr-footer{
            max-width: 25%;
     }
+    .npi{
+        float: right;
+    margin-top: -150px;
+    }
 }
 @media (max-width: 550px){
     #mainNav{
