@@ -17,6 +17,7 @@ a:link
 } 
 #mainNav {
     font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+        background-color: #ff4c00;
 }
 #mainNav.navbar-shrink {
     border-color: rgba(34,34,34,.05);
