@@ -39,6 +39,9 @@ a:link
 .fw3{
     font-weight: 300!important;
 }
+.fw7{
+    font-weight: 700!important;
+}
 .fw9{
     font-weight: 900!important;
 }
@@ -102,7 +105,7 @@ header.masthead .header-content .header-content-inner h1 {
     color: #fff;
 }
 .text1-how{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 300;
     padding-left: 15px;
      margin-bottom: 0px;
@@ -124,6 +127,12 @@ header.masthead .header-content .header-content-inner h1 {
     font-weight: 400;
     color: #ff4c00;
     text-transform: uppercase;
+}
+.text3-price{
+    margin-bottom: 10px;
+}
+.icon-price-red{
+    margin-bottom: 10px;
 }
 .numero-how{
     position: absolute;
