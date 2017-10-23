@@ -205,6 +205,10 @@ header.masthead .header-content .header-content-inner h1 {
     color: rgba(0,0,0,.5);
     border-color: #fff;
 }
+.ks{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
 
 @media (min-width: 768px){
     header.masthead .header-content .header-content-inner h1 {
