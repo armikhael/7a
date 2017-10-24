@@ -251,27 +251,29 @@ header.masthead .header-content .header-content-inner h1 {
 
         padding-right: 0px;
     }
-}
-@media (max-width: 550px){
-    #mainNav{
-        background-color: #ff4c00!important;
-    }
-    .text1-how,.text2-how,.text4-how{
-        font-size: 30px;
-    }
     .numero-how{
             width: 60px; 
             position: relative;
             left: 0;
             margin-bottom: 20px;       
     }
-    .box-redes-footer i {
-        font-size: 25px;
-        margin-left: 20px;
+    .text1-how,.text2-how,.text4-how{
+        font-size: 30px;
     }
     .none{
         display: none;
     }
+}
+@media (max-width: 550px){
+    #mainNav{
+        background-color: #ff4c00!important;
+    }
+    
+    .box-redes-footer i {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    
     .display-r{
         display: relative!important;
     }
