@@ -14,7 +14,10 @@ hr {
 a:link   
 {   
  text-decoration:none;   
-} 
+}
+ .white{
+     color: #fff!important;
+ }
 #mainNav {
     font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
         background-color: #ff4c00;
