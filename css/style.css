@@ -42,11 +42,17 @@ a:link
 .fw3{
     font-weight: 300!important;
 }
+.fw4{
+    font-weight: 400!important;
+}
 .fw7{
     font-weight: 700!important;
 }
 .fw9{
     font-weight: 900!important;
+}
+.fs15{
+    font-size: 15px;
 }
 #mainNav .navbar-brand {
     font-weight: 700;
@@ -83,6 +89,9 @@ header.masthead .header-content .header-content-inner h1 {
 }
 .text-black{
     color: #3d3c3c;
+}
+.text-black-claro{
+    color: #6b6b6b;
 }
 .my{
     text-transform: uppercase;
@@ -191,11 +200,11 @@ header.masthead .header-content .header-content-inner h1 {
     color: #fff;
     border-color: #ff4c00;
     background-color: #ff4c00;
-        border-radius: 2px;
-        padding-left: 35px;
-        padding-right: 35px;
-            text-transform: none;
-            font-weight: 200;
+    border-radius: 2px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-transform: none;
+    font-weight: 200;
 
 }
 header.masthead .header-content .header-content-inner h1 {
@@ -212,6 +221,133 @@ header.masthead .header-content .header-content-inner h1 {
     font-size: 13px;
     margin-bottom: 0px;
 }
+.text-blogs {
+    padding: 5px;
+}
+.text-blogs p{
+    margin-bottom: 2px;
+}
+.txt-blog{
+    font-size: 15px;
+    color: #6b6b6b;
+}
+.box-blog-post{
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+.page-link {
+    color: #3d3c3c;
+}
+.page-link:focus, .page-link:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #3d3c3c;
+    border-color: #3d3c3c;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #eeeeee;
+    outline: 0;
+}
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.25rem + 2px);
+}
+.hrblog{
+    border-width: 2px;
+    border-color: #a5a5a5;
+    max-width: 100%!important;
+    margin-bottom: 25px;
+}
+.label-default {
+    background-color: #e5e5e5;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    line-height: 1;
+    color: #6b6b6b;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.datepicker-inline {
+    width: 100%;
+}
+.datepicker td, .datepicker th {
+    width: 50px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 0;
+}
+.day{
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #eae9e9!important;
+    
+}
+.datepicker table {
+    box-shadow: 0px 1px 15px rgba(136, 136, 136, 0.52);
+}
+.datepicker table tr td.today, .datepicker table tr td.today:hover, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled:hover {
+    background-color: #f8f6f6;
+    background-image: -moz-linear-gradient(top,#f8f6f6,#f8f6f6);
+    background-image: -ms-linear-gradient(top,#f8f6f6,#f8f6f6);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#f8f6f6),to(#f8f6f6));
+    background-image: -webkit-linear-gradient(top,#f8f6f6,#f8f6f6);
+    background-image: -o-linear-gradient(top,#f8f6f6,#f8f6f6);
+    background-image: linear-gradient(top,#f8f6f6,#f8f6f6);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f6f6',endColorstr='#f8f6f6',GradientType=0);
+    border-color: #f8f6f6 #f8f6f6 #f8f6f6;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    color: #ff4c00;
+}
+.datepicker thead tr:first-child th, .datepicker tfoot tr th {
+    cursor: pointer;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #ff4c00;
+    color: #fff;
+}
+.dow{
+    padding: 10px;
+    background: #3d3c3c;
+    color: #fff;
+}
+.datepicker thead tr:first-child th:hover, .datepicker tfoot tr th:hover {
+    background: #ff4c00;
+}
+
+.box-comments{
+    background: #fff;
+    border: 1px solid rgba(234, 233, 233, 0.68);
+    border-radius: 3px;
+    padding: 10px;
+}
+.txt-blog-comment-icon{
+    font-size: 13px;
+    color: #6b6b6b;
+    margin-bottom: 0px;
+}
+.box-comment{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px){
     header.masthead .header-content .header-content-inner h1 {
@@ -232,6 +368,9 @@ header.masthead .header-content .header-content-inner h1 {
     }
     .fs35{
         font-size: 35px;
+    }
+    .fs25{
+        font-size: 25px;
     }
     .box-redes-footer i {
         font-size: 30px;
