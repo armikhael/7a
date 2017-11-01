@@ -337,6 +337,10 @@ select.form-control:not([size]):not([multiple]) {
 .box-comment{
     padding-bottom: 50px;
 }
+.user-blog{
+    border-radius: 50%;
+    width: 80px;
+}
 
 
 
